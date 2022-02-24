@@ -161,34 +161,24 @@
                                             <span class="value">
                                                 <script>
                                                     function age(birthdate) {
-                                                        var diffTime = (new Date().getTime() - birthdate.getTime());
-                                                        var yearsDiff = diffTime / (1000 * 3600 * 24 * 365);
+                                                        const diffTime = (new Date().getTime() - birthdate.getTime());
+                                                        const yearsDiff = diffTime / (1000 * 3600 * 24 * 365);
                                                         return parseInt(yearsDiff);
                                                     }
+
                                                     const birthdate = new Date(1994, 8, 30);
                                                     years = age(birthdate)
-                                                    document.write(years);
+                                                    document.write(years.toString());
                                                 </script></span>
                                         </li>
 
                                         <li>
                                             <span class="title">Residence</span>
-                                            <span class="value">USA</span>
+                                            <span class="value">Italia</span>
                                         </li>
-
-                                        <li>
-                                            <span class="title">Address</span>
-                                            <span class="value">88 Some Street, Some Town</span>
-                                        </li>
-
                                         <li>
                                             <span class="title">e-mail</span>
-                                            <span class="value">email@example.com</span>
-                                        </li>
-
-                                        <li>
-                                            <span class="title">Phone</span>
-                                            <span class="value">+0123 123 456 789</span>
+                                            <span class="value">gb1609@outlook.com</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -267,257 +257,6 @@
                             </div>
                         </div>
                         <!-- End of Services -->
-
-                        <div class="white-space-30"></div>
-
-                        <!-- Testimonials -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>Testimonials</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="testimonials owl-carousel">
-                                    <!-- Testimonial 1 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="img/testimonials/testimonial-1.jpg" alt="Alex Smith">
-                                        </div>
-                                        <div class="text">
-                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
-                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id
-                                                ligula pellentesque, at vehicula dui ultrices.</p>
-                                        </div>
-
-                                        <div class="author-info">
-                                            <h4 class="author">Julia Hickman</h4>
-                                            <h5 class="company">Omni Source</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 1 -->
-
-                                    <!-- Testimonial 2 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="img/testimonials/testimonial-2.jpg" alt="Alex Smith">
-                                        </div>
-                                        <div class="text">
-                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
-                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id
-                                                ligula pellentesque, at vehicula dui ultrices.</p>
-                                        </div>
-
-                                        <div class="author-info">
-                                            <h4 class="author">Robert Watkins</h4>
-                                            <h5 class="company">Endicott Shoes</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 2 -->
-
-                                    <!-- Testimonial 3 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="img/testimonials/testimonial-3.jpg" alt="Alex Smith">
-                                        </div>
-                                        <div class="text">
-                                            <p>Vivamus at molestie dui, eu ornare orci. Curabitur vel egestas dolor.
-                                                Nulla condimentum nunc sit amet urna tempus finibus. Duis mollis leo id
-                                                ligula pellentesque, at vehicula dui ultrices.</p>
-                                        </div>
-
-                                        <div class="author-info">
-                                            <h4 class="author">Kristin Carroll</h4>
-                                            <h5 class="company">Helping Hand</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 3 -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Testimonials -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Clients -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>Cilents</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="clients owl-carousel">
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-1.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-2.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-3.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-4.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-5.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-6.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Logo">
-                                            <img src="img/clients/client-7.png" alt="Logo">
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Clients -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Pricing -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-
-                                <div class="block-title">
-                                    <h3>Pricing</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class=" col-xs-12 col-sm-12 ">
-                                <div class="fw-pricing clearfix row">
-
-                                    <div class="fw-package-wrap col-md-6 ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>Silver</span>
-                                            </div>
-
-                                            <div class="fw-pricing-row">
-                                                <span>$64</span>
-                                                <small>per month</small>
-                                            </div>
-
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
-                                            </div>
-
-                                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                                            <div class="fw-default-row">Morbi eu sagittis</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="fw-package-wrap col-md-6 highlight-col ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>Gold</span>
-                                            </div>
-
-                                            <div class="fw-pricing-row">
-                                                <span>$128</span>
-                                                <small>per month</small>
-                                            </div>
-
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                                            </div>
-
-                                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                                            <div class="fw-default-row">Morbi eu sagittis</div>
-                                            <div class="fw-default-row">Donec non diam</div>
-                                            <div class="fw-default-row"></div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Pricing -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Fun Facts -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-
-                                <div class="block-title">
-                                    <h3>Fun <span>Facts</span></h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-heart"></i>
-                                    <h4>Happy Clients</h4>
-                                    <span class="fun-fact-block-value">578</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-clock"></i>
-                                    <h4>Working Hours</h4>
-                                    <span class="fun-fact-block-value">4,780</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-4 ">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-star"></i>
-                                    <h4>Awards Won</h4>
-                                    <span class="fun-fact-block-value">15</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Fun Facts -->
-
                     </div>
                 </section>
                 <!-- End of About Me Subpage -->
@@ -537,6 +276,21 @@
                                 </div>
 
                                 <div class="timeline timeline-second-style clearfix">
+                                    <!-- PET -->
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">2017</h5>
+                                            <span class="item-company">University of Cambridge</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">Pet B1</h4>
+                                            <p>Cambridge ESOL Entry Level Certificate in ESOL International: <a
+                                                    href="https://www.icloud.com/iclouddrive/0NFIiSrsMi3tyW8ZlZu8LOw-A#pet">link</a>
+                                                .</p>
+                                        </div>
+                                    </div>
+                                    <!-- BACHELOR -->
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
                                             <h5 class="item-period">2017</h5>
@@ -548,7 +302,7 @@
                                             <p>Department of Mathematics and Computer Science.</p>
                                         </div>
                                     </div>
-
+                                    <!-- MASTER -->
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
                                             <h5 class="item-period">2021</h5>
@@ -558,7 +312,6 @@
                                         <div class="right-part">
                                             <h4 class="item-title">Master Degree in Computer Science</h4>
                                             <p>Department of Mathematics and Computer Science.</p>
-                                            <p>Sp.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -566,48 +319,112 @@
                                 <div class="white-space-50"></div>
 
                                 <div class="block-title">
-                                    <h3>Experience</h3>
+                                    <h3>Work Experience</h3>
                                 </div>
 
                                 <div class="timeline timeline-second-style clearfix">
+                                    <!-- VT SOLUTIONS -->
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2016 - Current</h5>
-                                            <span class="item-company">Google</span>
+                                            <h5 class="item-period">Jan 2020 - Current</h5>
+                                            <span class="item-company">Vt Solutions & Consulting</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Lead Ui/Ux Designer</h4>
-                                            <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis.
-                                                Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                                            <h4 class="item-title">Big Data Engineer</h4>
+                                            <p>Working on various internal and external (as a consultant) projects in
+                                                Big Data field.</p>
                                         </div>
                                     </div>
-
+                                    <!-- SKY -->
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2013 - 2016</h5>
-                                            <span class="item-company">Adobe</span>
+                                            <h5 class="item-period">Feb 2021 - Current</h5>
+                                            <span class="item-company">Sky Deutschland GmbH on behalf of NTT Data Italia and VT Solutions & Consulting</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Senior Ui/Ux Designer</h4>
-                                            <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla
-                                                tristique, ornare felis id, congue libero. Nam volutpat euismod
-                                                quam.</p>
+                                            <h4 class="item-title">Big Data Engineer Consultant</h4>
+                                            <p>SKY DE on behalf of NTT Data Italia. <br>
+                                                Main Topics:
+                                            <ul style="margin-left: 1em">
+                                                <li>Data modelling and data partitioning in a Google Cloud Platform
+                                                    ecosystem using Big Query.
+                                                </li>
+                                                <li>Development of Dataflow job using Scala for Ingestion and processing
+                                                    realtime data (Avro) ingested by kafka.
+                                                </li>
+                                                <li>Development of Google Airflow DAGs using Python to perform etl
+                                                    operations on data for DWH.
+                                                </li>
+                                            </ul>
+                                            </p>
                                         </div>
                                     </div>
-
+                                    <!-- TIM -->
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2011 - 2013</h5>
-                                            <span class="item-company">Google</span>
+                                            <h5 class="item-period">Oct 2020 - Feb 2021</h5>
+                                            <span class="item-company">Telecom Italia S.p.A. on behalf of Bip and VT Solutions & Consulting</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Junior Ui/Ux Designer</h4>
-                                            <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue
-                                                vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit
-                                                amet.</p>
+                                            <h4 class="item-title">Big Data Analyst Consultant</h4>
+                                            <p>Big Data Analyst on TIM Genomics Project. The main task was to write some
+                                                guideline documents about the main approches and
+                                                best practices in a Big Data platform and its reference environment. The
+                                                two documents
+                                                were mostly on Big Data development and architecture with particular
+                                                attention for the
+                                                following points:
+                                            <ul style="margin-left: 1em">
+                                                <li>Software component structure and code documentation.
+                                                </li>
+                                                <li>Git integration Strategy (with particular focus on branching models
+                                                    like Git-Flow
+                                                    and GitHub-Flow, code and environment promotion).
+                                                </li>
+                                                <li>Data Lake principles (data ingestion, data preparation, data
+                                                    exporting, testing).
+                                                </li>
+                                                <li>Lambda architecture, data modeling, data preparation, partitioning.
+                                                </li>
+                                                <li>Analysis for migration of Cloudera Ecosystem to Google Cloud
+                                                    Platform.
+                                                </li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- ENEL -->
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">Jan 2020 - Oct 2020</h5>
+                                            <span class="item-company">Enel S.p.A. on behalf of ATOS S.p.A. and VT Solutions & Consulting</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">Big Data Engineer Consultant</h4>
+                                            <p>Big Data Engineer on Enel Next Project using Scala and Java programming
+                                                languages, Hadoop Cloudera Distribution.
+                                                <br>
+                                                Main topics:
+                                            <ul style="margin-left: 1em">
+                                                <li>Development of Apache Spark batch jobs using Scala for Ingestion and
+                                                    processing of Avro file landed in HDFS.
+                                                </li>
+                                                <li> Desing and development of Data Quality Spark Processing Jobs for
+                                                    reports based on Hive and Impala.
+                                                </li>
+                                                <li>Data preparation, Data modelling and data partitioning.
+                                                </li>
+                                                <li>Lambda architecture, data modeling, data preparation, partitioning.
+                                                </li>
+                                                <li>Highly focused on the transformation and analysis phase of the data
+                                                    for the reporting phase.
+                                                </li>
+                                            </ul>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -618,24 +435,24 @@
                             <div class="col-xs-12 col-sm-5">
                                 <!-- Design Skills -->
                                 <div class="block-title">
-                                    <h3>Design <span>Skills</span></h3>
+                                    <h3>General <span>Skills</span></h3>
                                 </div>
 
                                 <div class="skills-info skills-second-style">
                                     <!-- Skill 1 -->
                                     <div class="skill clearfix">
-                                        <h4>Web Design</h4>
-                                        <div class="skill-value">95%</div>
+                                        <h4>Work in Autonomy</h4>
+                                        <div class="skill-value">90%</div>
                                     </div>
-                                    <div class="skill-container skill-1">
+                                    <div class="skill-container skill-2">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- End of Skill 1 -->
 
                                     <!-- Skill 2 -->
                                     <div class="skill clearfix">
-                                        <h4>Print Design</h4>
-                                        <div class="skill-value">65%</div>
+                                        <h4>Work in Team</h4>
+                                        <div class="skill-value">90%</div>
                                     </div>
                                     <div class="skill-container skill-2">
                                         <div class="skill-percentage"></div>
@@ -644,18 +461,18 @@
 
                                     <!-- Skill 3 -->
                                     <div class="skill clearfix">
-                                        <h4>Logo Design</h4>
-                                        <div class="skill-value">80%</div>
+                                        <h4>Software/DB Design</h4>
+                                        <div class="skill-value">75%</div>
                                     </div>
-                                    <div class="skill-container skill-3">
+                                    <div class="skill-container skill-5">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- End of Skill 3 -->
 
                                     <!-- Skill 4 -->
                                     <div class="skill clearfix">
-                                        <h4>Graphic Design</h4>
-                                        <div class="skill-value">90%</div>
+                                        <h4>Problem Solving</h4>
+                                        <div class="skill-value">80%</div>
                                     </div>
                                     <div class="skill-container skill-4">
                                         <div class="skill-percentage"></div>
@@ -675,18 +492,18 @@
                                 <div class="skills-info skills-second-style">
                                     <!-- Skill 5 -->
                                     <div class="skill clearfix">
-                                        <h4>JavaScript</h4>
-                                        <div class="skill-value">95%</div>
+                                        <h4>Scala</h4>
+                                        <div class="skill-value">85%</div>
                                     </div>
-                                    <div class="skill-container skill-5">
+                                    <div class="skill-container skill-3">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- End of Skill 5 -->
 
                                     <!-- Skill 6 -->
                                     <div class="skill clearfix">
-                                        <h4>PHP</h4>
-                                        <div class="skill-value">85%</div>
+                                        <h4>Java</h4>
+                                        <div class="skill-value">70%</div>
                                     </div>
                                     <div class="skill-container skill-6">
                                         <div class="skill-percentage"></div>
@@ -695,33 +512,23 @@
 
                                     <!-- Skill 7 -->
                                     <div class="skill clearfix">
-                                        <h4>HTML/CSS</h4>
-                                        <div class="skill-value">100%</div>
+                                        <h4>Python</h4>
+                                        <div class="skill-value">70%</div>
                                     </div>
-                                    <div class="skill-container skill-7">
+                                    <div class="skill-container skill-6">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- End of Skill 7 -->
 
                                     <!-- Skill 8 -->
                                     <div class="skill clearfix">
-                                        <h4>Smarty/Twig</h4>
-                                        <div class="skill-value">75%</div>
-                                    </div>
-                                    <div class="skill-container skill-8">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 8 -->
-
-                                    <!-- Skill 9 -->
-                                    <div class="skill clearfix">
-                                        <h4>Perl</h4>
-                                        <div class="skill-value">90%</div>
+                                        <h4>Other Language</h4>
+                                        <div class="skill-value">50%</div>
                                     </div>
                                     <div class="skill-container skill-9">
                                         <div class="skill-percentage"></div>
                                     </div>
-                                    <!-- End of Skill 9 -->
+                                    <!-- End of Skill 8 -->
                                 </div>
                                 <!-- End of Coding Skills -->
 
@@ -733,15 +540,19 @@
                                 </div>
 
                                 <ul class="knowledges">
-                                    <li>Marketing</li>
-                                    <li>Print</li>
-                                    <li>Digital Design</li>
-                                    <li>Social Media</li>
-                                    <li>Time Management</li>
-                                    <li>Communication</li>
-                                    <li>Problem-Solving</li>
-                                    <li>Social Networking</li>
-                                    <li>Flexibility</li>
+                                    <li>Big Data</li>
+                                    <li>Google Cloud Platform</li>
+                                    <li>Cloudera</li>
+                                    <li>Apache Spark</li>
+                                    <li>Apache Hive</li>
+                                    <li>Impala</li>
+                                    <li>Relational Databases</li>
+                                    <li>Scala</li>
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                    <li>Git</li>
+                                    <li>Scrum methodology</li>
+                                    <li>Confluence</li>
                                 </ul>
                                 <!-- End of Knowledges -->
                             </div>
@@ -764,18 +575,27 @@
                             <div class="col-xs-12 col-sm-6">
                                 <div class="certificate-item clearfix">
                                     <div class="certi-logo">
-                                        <img src="img/clients/client-1.png" alt="logo">
+                                        <img src="img/coursera.png" alt="coursera">
                                     </div>
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>Psyhology of Intertnation Design</h4>
+                                            <h4>Preparing for Google Cloud Certification: Cloud Data Engineer
+                                                Specialization</h4>
                                         </div>
                                         <div class="certi-id">
-                                            <span>Membership ID: XXXX</span>
+                                            <span>Organization: Coursera | Google</span>
+                                        </div>
+                                        <div class="certi-id">
+                                            <span>Membership ID: 57H9JBQYSXS7</span>
+                                        </div>
+                                        <div class="certi-id">
+                                            <span>Certification Link:
+                                                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/57H9JBQYSXS7">here</a>.
+                                                </span>
                                         </div>
                                         <div class="certi-date">
-                                            <span>19 April 2018</span>
+                                            <span>January 2021</span>
                                         </div>
                                         <div class="certi-company">
                                             <span></span>
@@ -789,18 +609,26 @@
                             <div class="col-xs-12 col-sm-6">
                                 <div class="certificate-item clearfix">
                                     <div class="certi-logo">
-                                        <img src="img/clients/client-1.png" alt="logo">
+                                        <img src="img/coursera.png" alt="coursera" width="auto" height="auto">
                                     </div>
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>Psyhology of Intertnation Design</h4>
+                                            <h4>Google IT Automation with Python Specialization</h4>
                                         </div>
                                         <div class="certi-id">
-                                            <span>Membership ID: XXXX</span>
+                                            <span>Organization: Coursera | Google</span>
+                                        </div>
+                                        <div class="certi-id">
+                                            <span>Membership ID: MJEDKUL6CEKU</span>
+                                        </div>
+                                        <div class="certi-id">
+                                            <span>Certification Link:
+                                                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/MJEDKUL6CEKU">here</a>.
+                                                </span>
                                         </div>
                                         <div class="certi-date">
-                                            <span>19 April 2018</span>
+                                            <span>August 2021</span>
                                         </div>
                                         <div class="certi-company">
                                             <span></span>

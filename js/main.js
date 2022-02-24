@@ -68,36 +68,6 @@
 
     // /Custom scroll
 
-    // Contact form validator
-    $(function () {
-
-        $('#contact_form').validator();
-
-        $('#contact_form').on('submit', function (e) {
-            if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
-
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: $(this).serialize(),
-                    success: function (data) {
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
-
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact_form').find('.messages').html(alertBox);
-                            $('#contact_form')[0].reset();
-                        }
-                    }
-                });
-                return false;
-            }
-        });
-    });
-    // /Contact form validator
-
     //On Window load & Resize
     $(window)
         .on('load', function () { //Load
@@ -188,56 +158,6 @@
             animateIn: 'animated-section-scaleUp'
         });
 
-        // Testimonials Slider
-        $(".testimonials.owl-carousel").owlCarousel({
-            nav: true, // Show next/prev buttons.
-            items: 3, // The number of items you want to see on the screen.
-            loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
-            navText: false,
-            autoHeight: true,
-            margin: 25,
-            responsive: {
-                // breakpoint from 0 up
-                0: {
-                    items: 1,
-                },
-                // breakpoint from 480 up
-                480: {
-                    items: 1,
-                },
-                // breakpoint from 768 up
-                768: {
-                    items: 2,
-                },
-                1200: {
-                    items: 2,
-                }
-            }
-        });
-
-        // Clients Slider
-        $(".clients.owl-carousel").imagesLoaded().owlCarousel({
-            nav: true, // Show next/prev buttons.
-            items: 2, // The number of items you want to see on the screen.
-            loop: false, // Infinity loop. Duplicate last and first items to get loop illusion.
-            navText: false,
-            margin: 10,
-            autoHeight: true,
-            responsive: {
-                // breakpoint from 0 up
-                0: {
-                    items: 2,
-                },
-                // breakpoint from 768 up
-                768: {
-                    items: 4,
-                },
-                1200: {
-                    items: 5,
-                }
-            }
-        });
-
 
         //Form Controls
         $('.form-control')
@@ -307,13 +227,6 @@
             },
         });
 
-        //Google Maps
-        $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
-        });
-        $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
-        });
     });
 
 })(jQuery);
