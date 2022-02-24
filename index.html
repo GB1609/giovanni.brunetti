@@ -158,7 +158,17 @@
                                     <ul>
                                         <li>
                                             <span class="title">Age</span>
-                                            <span class="value">32</span>
+                                            <span class="value">
+                                                <script>
+                                                    function age(birthdate) {
+                                                        var diffTime = (new Date().getTime() - birthdate.getTime());
+                                                        var yearsDiff = diffTime / (1000 * 3600 * 24 * 365);
+                                                        return parseInt(yearsDiff);
+                                                    }
+                                                    const birthdate = new Date(1994, 8, 30);
+                                                    years = age(birthdate)
+                                                    document.write(years);
+                                                </script></span>
                                         </li>
 
                                         <li>
