@@ -1,3 +1,5 @@
 /.idea/
 /.github/workflows/
 /.firebase/
+/firebase.json
+/.firebaserc
