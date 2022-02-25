@@ -44,9 +44,9 @@ html {
 }
 
 body {
-    background-color: #5050f5;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9d2bf3), to(#5050f5));
-    background: linear-gradient(#9d2bf3, #5050f5);
+    background-color: #0e8d2ffa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9d2bf3), to(#0e8d2ffa));
+    background: linear-gradient(#9d2bf3, #0e8d2ffa);
     margin: 0;
     width: 100%;
     height: 100%;
@@ -158,7 +158,7 @@ input[type="submit"],
     line-height: 1.2;
     border: 0;
     outline: 0;
-    border: 2px solid #5050f5;
+    border: 2px solid #0e8d2ffa;
     color: #f5f5f5;
     text-shadow: none;
     background-color: transparent;
@@ -189,9 +189,9 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     color: #fff;
-    border: 2px solid #5050f5;
+    border: 2px solid #0e8d2ffa;
 }
 
 .btn-secondary {
@@ -251,7 +251,7 @@ input[type="submit"]:focus {
     width: 52px;
     height: 52px;
     margin: 100px auto;
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
 
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -333,7 +333,7 @@ input[type="submit"]:focus {
     ul.main-menu a.active,
     ul.main-menu a:focus,
     ul.main-menu a:hover {
-        color: #5050f5;
+        color: #0e8d2ffa;
     }
 
     ul.main-menu .menu-icon {
@@ -348,7 +348,7 @@ input[type="submit"]:focus {
         opacity: 0;
         color: #fff;
         padding: 2px 10px;
-        background-color: #5050f5;
+        background-color: #0e8d2ffa;
         white-space: nowrap;
         right: 0;
         top: -50%;
@@ -402,7 +402,7 @@ input[type="submit"]:focus {
 }
 
 .lmpixels-arrows-nav div:hover {
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 /* --- End LMPixels Arrow Nav --- */
@@ -501,7 +501,7 @@ input[type="submit"]:focus {
 
 .header-buttons .btn-primary:hover {
     background-color: #fff;
-    color: #5050f5;
+    color: #0e8d2ffa;
     border-color: #fff;
 }
 
@@ -612,7 +612,7 @@ input[type="submit"]:focus {
 }
 
 .ps:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
 }
 
 .ps > .ps__scrollbar-y-rail {
@@ -630,7 +630,7 @@ input[type="submit"]:focus {
 }
 
 .ps:hover.ps--in-scrolling.ps--y > .ps__scrollbar-y-rail > .ps__scrollbar-y {
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
 }
 
 /* --- End Custom ScrollBar Customization --- */
@@ -650,7 +650,7 @@ input[type="submit"]:focus {
 }
 
 .page-title h2 span {
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 .page-title:after {
@@ -661,9 +661,9 @@ input[type="submit"]:focus {
     content: '';
     height: 30px;
     width: 50px;
-    background-image: -webkit-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
     -webkit-background-size: 6px 6px;
     -moz-background-size: 6px 6px;
     background-size: 6px 6px;
@@ -725,7 +725,7 @@ textarea.form-control, textarea.form-control:focus {
     top: 0;
     opacity: 0;
     background: transparent;
-    border: 2px solid #5050f5;
+    border: 2px solid #0e8d2ffa;
     border-right-width: 0;
     height: 100%;
     -webkit-transition: all 0.3s ease-in-out;
@@ -798,7 +798,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 .form-group.form-group-w-checkbox {
@@ -852,7 +852,7 @@ textarea.form-control, textarea.form-control:focus {
 
 .form-group .form-control:focus ~ label,
 .form-group.form-group-focus .form-control ~ label {
-    color: #5050f5;
+    color: #0e8d2ffa;
     top: -20px;
     left: 0;
     z-index: 1;
@@ -886,7 +886,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .block-title h3 span {
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 .block-title:after {
@@ -897,9 +897,9 @@ textarea.form-control, textarea.form-control:focus {
     content: '';
     height: 20px;
     width: 30px;
-    background-image: -webkit-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
-    background-image: -ms-repeating-radial-gradient(center center, #5050f5, #5050f5 1px, transparent 0px, transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #0e8d2ffa, #0e8d2ffa 1px, transparent 0px, transparent 100%);
     -webkit-background-size: 6px 6px;
     -moz-background-size: 6px 6px;
     background-size: 6px 6px;
@@ -949,7 +949,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .info-list .title {
-    color: #5050f5;
+    color: #0e8d2ffa;
     margin-right: 5px;
     font-weight: 600;
 }
@@ -978,7 +978,7 @@ textarea.form-control, textarea.form-control:focus {
 .info-block-w-icon i {
     position: relative;
     font-size: 42px;
-    color: #5050f5;
+    color: #0e8d2ffa;
     opacity: .7;
 }
 
@@ -1008,7 +1008,7 @@ textarea.form-control, textarea.form-control:focus {
 .lm-info-block i {
     position: relative;
     font-size: 33px;
-    color: #5050f5;
+    color: #0e8d2ffa;
     z-index: 1;
 }
 
@@ -1023,7 +1023,7 @@ textarea.form-control, textarea.form-control:focus {
     font-weight: 400;
     display: block;
     margin: 10px 0;
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 
@@ -1068,7 +1068,7 @@ textarea.form-control, textarea.form-control:focus {
     font-size: 30px;
     right: 0;
     top: 7px;
-    color: #5050f5;
+    color: #0e8d2ffa;
     opacity: .5;
 }
 
@@ -1173,8 +1173,8 @@ textarea.form-control, textarea.form-control:focus {
 .testimonials.owl-carousel .owl-nav .owl-next:hover,
 .clients.owl-carousel .owl-nav .owl-prev:hover,
 .clients.owl-carousel .owl-nav .owl-next:hover {
-    background-color: #5050f5;
-    border-color: #5050f5;
+    background-color: #0e8d2ffa;
+    border-color: #0e8d2ffa;
     color: #fff;
 }
 
@@ -1236,7 +1236,7 @@ textarea.form-control, textarea.form-control:focus {
     position: absolute;
     margin-left: -8px;
     border-radius: 10px;
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     opacity: .25;
     z-index: 0;
 }
@@ -1251,7 +1251,7 @@ textarea.form-control, textarea.form-control:focus {
     margin-left: -4px;
     background-color: #222;
     border-radius: 5px;
-    border: 2px solid #5050f5;
+    border: 2px solid #0e8d2ffa;
     z-index: 1;
 }
 
@@ -1309,7 +1309,7 @@ textarea.form-control, textarea.form-control:focus {
     position: relative;
     display: inline-block;
     background-color: #222;
-    border: 1px solid #5050f5;
+    border: 1px solid #0e8d2ffa;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -1324,7 +1324,7 @@ textarea.form-control, textarea.form-control:focus {
 .skills-second-style .skill-container:before {
     content: '';
     position: absolute;
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
 }
 
 .skills-second-style .skill-value {
@@ -1337,7 +1337,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-percentage {
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     border: 2px solid #222;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
@@ -1414,7 +1414,7 @@ textarea.form-control, textarea.form-control:focus {
 
 .knowledges li {;
     display: inline-block;
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     border-radius: 3px;
     color: #fff;
     padding: 1px 10px;
@@ -1640,7 +1640,7 @@ textarea.form-control, textarea.form-control:focus {
     width: 30px;
     height: 30px;
     background-color: #222;
-    color: #5050f5;
+    color: #0e8d2ffa;
     text-align: center;
     line-height: 30px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1899,7 +1899,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     color: #fff;
 }
 
@@ -1958,7 +1958,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .project-general-info .fa {
-    color: #5050f5;
+    color: #0e8d2ffa;
     margin-right: 5px;
 }
 
@@ -1990,8 +1990,8 @@ textarea.form-control, textarea.form-control:focus {
 
 .share-buttons a:hover {
     color: #fff;
-    background-color: #5050f5;
-    border-color: #5050f5;
+    background-color: #0e8d2ffa;
+    border-color: #0e8d2ffa;
 }
 
 .share-buttons a:last-child {
@@ -2418,7 +2418,7 @@ blockquote {
         height: 48px;
         line-height: 46px;
         text-align: center;
-        background-color: #5050f5;
+        background-color: #0e8d2ffa;
         right: 10px;
         font-size: 19px;
         top: 10px;
@@ -2507,7 +2507,7 @@ blockquote {
         right: 10px;
         bottom: 10px;
         padding: 5px 0;
-        border: 2px solid #5050f5;
+        border: 2px solid #0e8d2ffa;
     }
 
     .lmpixels-arrows-nav div {
@@ -2696,7 +2696,7 @@ blockquote {
     content: '';
     height: 2px;
     margin-top: 0;
-    background-color: #5050f5;
+    background-color: #0e8d2ffa;
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -2846,7 +2846,7 @@ blockquote {
         right: 10px;
         bottom: 10px;
         padding: 5px 0;
-        border: 2px solid #5050f5;
+        border: 2px solid #0e8d2ffa;
     }
 }
 
@@ -3001,7 +3001,7 @@ blockquote {
 .fun-fact i {
     position: relative;
     font-size: 33px;
-    color: #5050f5;
+    color: #0e8d2ffa;
     margin-bottom: 6px;
     width: 33px;
     height: 33px;
@@ -3012,7 +3012,7 @@ blockquote {
     font-weight: 400;
     display: block;
     margin: 10px 0;
-    color: #5050f5;
+    color: #0e8d2ffa;
 }
 
 .fun-fact-block-value {
