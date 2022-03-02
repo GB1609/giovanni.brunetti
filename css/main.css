@@ -1154,7 +1154,6 @@ textarea.form-control, textarea.form-control:focus {
     line-height: 22px;
     text-align: center;
     display: block;
-    cursor: pointer;
     color: inherit;
     z-index: 1;
 }
@@ -3059,3 +3058,6 @@ blockquote {
     position: absolute;
 }
 
+.tab {
+    margin-left: 2.5em
+}
