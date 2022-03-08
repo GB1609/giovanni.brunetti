@@ -2873,14 +2873,13 @@ blockquote {
     z-index: -1;
 }
 
-.vcentered {
+.vertical_centered {
     vertical-align: middle;
     width: 100%;
     align-items: center;
     display: flex;
     display: -ms-flexbox;
     -ms-flex-pack: center;
-    justify-content: center;
     flex-direction: column;
     height: 100%;
     display: -webkit-box;
@@ -2912,9 +2911,12 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+    background-image: url("../img/wallpapers/wallpaper_2.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.vcentered .row {
+.vertical_centered .row {
     width: 100%;
 }
 
