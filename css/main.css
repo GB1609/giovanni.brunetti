@@ -2909,11 +2909,17 @@ blockquote {
     -moz-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
     text-align: center;
+}
+
+.bg_image {
     background-image: url("../img/wallpapers/wallpaper_2.jpg");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .vertical_centered .row {
