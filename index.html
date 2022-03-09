@@ -1,778 +1,1049 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <title>Giovanni Brunetti</title>
-    <link href="img/logo.ico" rel="shortcut icon">
-    <link href="css/reset.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animations.css" rel="stylesheet" type="text/css">
-    <link href="css/perfect-scrollbar.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>giovannibrunetti.it</title>
+    <meta content="noindex, follow" name="robots"/>
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Favicon -->
+    <link href="assets/images/logos/logo.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- CSS
+    ============================================ -->
+    <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/vendor/slick.css" rel="stylesheet">
+    <link href="assets/css/vendor/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/vendor/aos.css" rel="stylesheet">
+    <link href="assets/css/plugins/feature.css" rel="stylesheet">
+    <!-- Style css -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-<!-- Animated Background -->
-<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-<!-- /Animated Background -->
+<body class="template-color-1 spybody" data-offset="70" data-spy="scroll" data-target=".navbar-example2">
 
-<!-- Loading animation -->
-<div class="preloader">
-    <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
-    </div>
-</div>
-<!-- /Loading animation -->
-
-<div class="page">
-    <div class="page-content">
-
-        <header class="header mobile-menu-hide" id="site_header">
-            <div class="header-content">
-                <div class="header-photo">
-                    <img alt="Giovanni Brunetti" src="img/main_photo.jpg">
-                </div>
-                <div class="header-titles">
-                    <h2>Giovanni Brunetti</h2>
-                    <h4>Big Data and Software Engineer</h4>
+<!-- Start Header -->
+<header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+    <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+        <!-- Start Header Left -->
+        <div class="col-lg-2 col-6">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img alt="logo" src="assets/images/logos/logo.ico">
+                    </a>
                 </div>
             </div>
+        </div>
+        <!-- End Header Left -->
+        <!-- Start Header Center -->
+        <div class="col-lg-10 col-6">
+            <div class="header-center">
+                <nav class="mainmenu-nav navbar-example2 d-none d-xl-block" id="sideNav">
+                    <!-- Start Mainmanu Nav -->
+                    <ul class="primary-menu nav nav-pills">
+                        <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                    </ul>
+                    <!-- End Mainmanu Nav -->
+                </nav>
+                <!-- Start Header Right  -->
+                <div class="header-right">
+                    <div class="hamberger-menu d-block d-xl-none">
+                        <i class="feather-menu humberger-menu" id="menuBtn"></i>
+                    </div>
+                    <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                            <i data-feather="x"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- End Header Right  -->
 
-            <ul class="main-menu">
-                <li class="active">
-                    <a class="nav-anim" href="#home">
-                        <span class="menu-icon lnr lnr-home"></span>
-                        <span class="link-text">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-anim" href="#about-me">
-                        <span class="menu-icon lnr lnr-user"></span>
-                        <span class="link-text">About Me</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-anim" href="#resume">
-                        <span class="menu-icon lnr lnr-graduation-hat"></span>
-                        <span class="link-text">Resume</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-anim" href="#contact">
-                        <span class="menu-icon lnr lnr-envelope"></span>
-                        <span class="link-text">Contact</span>
-                    </a>
-                </li>
+            </div>
+        </div>
+        <!-- End Header Center -->
+    </div>
+</header>
+<!-- End Header Area -->
+<!-- Start Popup Mobile Menu  -->
+<div class="popup-mobile-menu">
+    <div class="inner">
+        <div class="menu-top">
+            <div class="menu-header">
+                <a class="logo" href="index.html">
+                    <img alt="Personal Portfolio" src="assets/images/logo/logos-circle.png">
+                </a>
+                <div class="close-button">
+                    <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                </div>
+            </div>
+            <p class="description">Hi, i am Giovanni Brunetti.</p>
+        </div>
+        <div class="content">
+            <ul class="primary-menu nav nav-pills">
+                <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
             </ul>
-
-            <div class="social-links">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/giovanni-brunetti-aa062b132/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://www.instagram.com/g1b1609/" target="_blank">
-                        <i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://github.com/GB1609" target="_blank">
-                        <i class="fab fa-github"></i></a></li>
+            <!-- social sharea area -->
+            <div class="social-share-style-1 mt--40">
+                <span class="title">find with me</span>
+                <ul class="social-share d-flex liststyle">
+                    <li class="instagram"><a href="https://www.instagram.com/g1b1609/" target="_blank">
+                        <svg class="feather feather-instagram" fill="none" height="24" stroke="currentColor"
+                             stroke-linecap="round"
+                             stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/giovanni-brunetti-aa062b132/"
+                                            target="_blank">
+                        <svg class="feather feather-linkedin" fill="none" height="24" stroke="currentColor"
+                             stroke-linecap="round"
+                             stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect height="12" width="4" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="github"><a href="https://github.com/GB1609" target="_blank">
+                        <svg class="feather feather-github" fill="none" height="24" stroke="currentColor"
+                             stroke-linecap="round"
+                             stroke-linejoin="round" stroke-width="2" viewBox="0 0 64 64" width="24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M32 0a32.021 32.021 0 0 0-10.1 62.4c1.6.3 2.2-.7 2.2-1.5v-6c-8.9 1.9-10.8-3.8-10.8-3.8-1.5-3.7-3.6-4.7-3.6-4.7-2.9-2 .2-1.9.2-1.9 3.2.2 4.9 3.3 4.9 3.3 2.9 4.9 7.5 3.5 9.3 2.7a6.93 6.93 0 0 1 2-4.3c-7.1-.8-14.6-3.6-14.6-15.8a12.27 12.27 0 0 1 3.3-8.6 11.965 11.965 0 0 1 .3-8.5s2.7-.9 8.8 3.3a30.873 30.873 0 0 1 8-1.1 30.292 30.292 0 0 1 8 1.1c6.1-4.1 8.8-3.3 8.8-3.3a11.965 11.965 0 0 1 .3 8.5 12.1 12.1 0 0 1 3.3 8.6c0 12.3-7.5 15-14.6 15.8a7.746 7.746 0 0 1 2.2 5.9v8.8c0 .9.6 1.8 2.2 1.5A32.021 32.021 0 0 0 32 0z"
+                                    fill="#202020"></path>
+                        </svg>
+                    </a>
+                    </li>
                 </ul>
+                <div class="button-wrapper d-flex">
+                    <a class="rn-btn mr--30" href="cv/cv_giovannibrunetti.pdf" target="_blank"><span>DOWNLOAD CV</span></a>
+                </div>
             </div>
-
-            <div class="header-buttons">
-                <a class="btn btn-primary" href="cv/cv_giovannibrunetti.pdf" target="_blank">Download CV</a>
-            </div>
-            <div class="copyrights">© Giovanni Brunetti
-                <script>document.write(new Date().getFullYear().toString())</script>
-            </div>
-        </header>
-
-        <!-- Mobile Navigation -->
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+            <!-- end -->
         </div>
-        <!-- End Mobile Navigation -->
-
-        <!-- Arrows Nav -->
-        <div class="lmpixels-arrows-nav">
-            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
-            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-        </div>
-        <!-- End Arrows Nav -->
-
-        <div class="content-area">
-            <div class="animated-sections">
-                <!-- Home Subpage -->
-                <section class="animated-section start-page" data-id="home">
-                    <div class="section-content vertical_centered bg_image">
-                        <div class="row" style="background-color: rgba(0, 0, 0, 0.6)">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <div class="title-block">
-                                    <h2>Giovanni Brunetti</h2>
-                                    <div class="owl-carousel text-rotation">
-                                        <div class="item">
-                                            <div class="sp-subtitle">Big Data Engineer</div>
-                                        </div>
-
-                                        <div class="item">
-                                            <div class="sp-subtitle">Software Engineer</div>
-                                        </div>
-
-                                        <div class="item">
-                                            <div class="sp-subtitle">Problem Solver</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-                <!-- End of Home Subpage -->
-
-                <!-- About Me Subpage -->
-                <section class="animated-section" data-id="about-me">
-                    <div class="section-content">
-                        <div class="page-title">
-                            <h2>About <span>Me</span></h2>
-                        </div>
-
-                        <!-- Personal Information -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-7">
-                                <p>I'm Giovanni Brunetti, a computer scientist.</p>
-                                I'm an Italian based computer scientist focused in <b>Big Data</b> in my work.
-                                <br>
-                                I love to write code and solve problems with it!
-                                <br><br>
-                                In my free time I love to read or play video games. However, the thing I love most is
-                                being surrounded by nature!
-                            </div>
-
-                            <div class="col-xs-12 col-sm-5">
-                                <div class="info-list">
-                                    <ul>
-                                        <li>
-                                            <span class="title">Age</span>
-                                            <span class="value">
-                                                <script>
-                                                    function age(birthdate) {
-                                                        const diffTime = (new Date().getTime() - birthdate.getTime());
-                                                        const yearsDiff = diffTime / (1000 * 3600 * 24 * 365);
-                                                        return parseInt(yearsDiff);
-                                                    }
-
-                                                    const birthdate = new Date(1994, 8, 30);
-                                                    years = age(birthdate)
-                                                    document.write(years.toString());
-                                                </script></span>
-                                        </li>
-
-                                        <li>
-                                            <span class="title">Residence</span>
-                                            <span class="value">Italia</span>
-                                        </li>
-                                        <li>
-                                            <span class="title">e-mail</span>
-                                            <span class="value">gb1609@outlook.com</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Personal Information -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Services -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>What <span>I Do</span></h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="col-inner">
-                                    <div class="info-list-w-icon">
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-code"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Developer</h4>
-                                                <p>I have worked with different languages and in different contexts.
-                                                    Whatever the code to write, I don't hold back.</p>
-                                                <p>You can find my projects and my personal works on my GitHub page:
-                                                    <a class="tab" href="https://github.com/GB1609">
-                                                        <i class="fab fa-github-square"></i></a></p>
-                                            </div>
-                                        </div>
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="fa fa-building"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Design</h4>
-                                                <p>Ability to create software and organize the necessary structure.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="col-inner">
-                                    <div class="info-list-w-icon">
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-database"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Big Data</h4>
-                                                <p>Experience in Big Data contexts of different kinds, cloud and
-                                                    Cloudera.</p>
-                                                <p>Participation in all typical typical data phases: ingestion,
-                                                    modeling, ETL and analysis.</p>
-                                            </div>
-                                        </div>
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="fa fa-group"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Team Work</h4>
-                                                <p>Ability to work in a team, knowledge of cooperation systems such as
-                                                    GIT, Jira, Confluence and Scrum methodology.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Services -->
-                    </div>
-                </section>
-                <!-- End of About Me Subpage -->
-
-                <!-- Resume Subpage -->
-                <section class="animated-section" data-id="resume">
-                    <div class="section-content">
-                        <div class="page-title">
-                            <h2>Resume</h2>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-7">
-
-                                <div class="block-title">
-                                    <h3>Education</h3>
-                                </div>
-
-                                <div class="timeline timeline-second-style clearfix">
-                                    <!-- PET -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">2017</h5>
-                                            <span class="item-company">University of Cambridge</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Pet B1</h4>
-                                            <p>Cambridge ESOL Entry Level Certificate in ESOL International: <a
-                                                    href="https://www.icloud.com/iclouddrive/0NFIiSrsMi3tyW8ZlZu8LOw-A#pet">link</a>
-                                                .</p>
-                                        </div>
-                                    </div>
-                                    <!-- BACHELOR -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">2017</h5>
-                                            <span class="item-company">University of Calabria</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Bachelor Degree in Computer Science</h4>
-                                            <p>Department of Mathematics and Computer Science.</p>
-                                        </div>
-                                    </div>
-                                    <!-- MASTER -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">2021</h5>
-                                            <span class="item-company">University of Calabria</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Master Degree in Computer Science</h4>
-                                            <p>Department of Mathematics and Computer Science.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="white-space-50"></div>
-
-                                <div class="block-title">
-                                    <h3>Work Experience</h3>
-                                </div>
-
-                                <div class="timeline timeline-second-style clearfix">
-                                    <!-- VT SOLUTIONS -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">Jan 2020 - Current</h5>
-                                            <span class="item-company">Vt Solutions & Consulting</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Big Data Engineer</h4>
-                                            <p>Working on various internal and external (as a consultant) projects in
-                                                Big Data field.</p>
-                                        </div>
-                                    </div>
-                                    <!-- SKY -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">Feb 2021 - Current</h5>
-                                            <span class="item-company">Sky Deutschland GmbH on behalf of NTT Data Italia and VT Solutions & Consulting</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Big Data Engineer Consultant</h4>
-                                            <p>SKY DE on behalf of NTT Data Italia. <br>
-                                                Main Topics:
-                                            <ul style="margin-left: 1em">
-                                                <li>Data modelling and data partitioning in a Google Cloud Platform
-                                                    ecosystem using Big Query.
-                                                </li>
-                                                <li>Development of Dataflow job using Scala for Ingestion and processing
-                                                    realtime data (Avro) ingested by kafka.
-                                                </li>
-                                                <li>Development of Google Airflow DAGs using Python to perform etl
-                                                    operations on data for DWH.
-                                                </li>
-                                            </ul>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- TIM -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">Oct 2020 - Feb 2021</h5>
-                                            <span class="item-company">Telecom Italia S.p.A. on behalf of Bip and VT Solutions & Consulting</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Big Data Analyst Consultant</h4>
-                                            <p>Big Data Analyst on TIM Genomics Project. The main task was to write some
-                                                guideline documents about the main approches and
-                                                best practices in a Big Data platform and its reference environment. The
-                                                two documents
-                                                were mostly on Big Data development and architecture with particular
-                                                attention for the
-                                                following points:
-                                            <ul style="margin-left: 1em">
-                                                <li>Software component structure and code documentation.
-                                                </li>
-                                                <li>Git integration Strategy (with particular focus on branching models
-                                                    like Git-Flow
-                                                    and GitHub-Flow, code and environment promotion).
-                                                </li>
-                                                <li>Data Lake principles (data ingestion, data preparation, data
-                                                    exporting, testing).
-                                                </li>
-                                                <li>Lambda architecture, data modeling, data preparation, partitioning.
-                                                </li>
-                                                <li>Analysis for migration of Cloudera Ecosystem to Google Cloud
-                                                    Platform.
-                                                </li>
-                                            </ul>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- ENEL -->
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">Jan 2020 - Oct 2020</h5>
-                                            <span class="item-company">Enel S.p.A. on behalf of ATOS S.p.A. and VT Solutions & Consulting</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">Big Data Engineer Consultant</h4>
-                                            <p>Big Data Engineer on Enel Next Project using Scala and Java programming
-                                                languages, Hadoop Cloudera Distribution.
-                                                <br>
-                                                Main topics:
-                                            <ul style="margin-left: 1em">
-                                                <li>Development of Apache Spark batch jobs using Scala for Ingestion and
-                                                    processing of Avro file landed in HDFS.
-                                                </li>
-                                                <li> Desing and development of Data Quality Spark Processing Jobs for
-                                                    reports based on Hive and Impala.
-                                                </li>
-                                                <li>Data preparation, Data modelling and data partitioning.
-                                                </li>
-                                                <li>Lambda architecture, data modeling, data preparation, partitioning.
-                                                </li>
-                                                <li>Highly focused on the transformation and analysis phase of the data
-                                                    for the reporting phase.
-                                                </li>
-                                            </ul>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Skills & Certificates -->
-                            <div class="col-xs-12 col-sm-5">
-                                <!-- Design Skills -->
-                                <div class="block-title">
-                                    <h3>General <span>Skills</span></h3>
-                                </div>
-
-                                <div class="skills-info skills-second-style">
-                                    <!-- Skill 1 -->
-                                    <div class="skill clearfix">
-                                        <h4>Work in Autonomy</h4>
-                                        <div class="skill-value">90%</div>
-                                    </div>
-                                    <div class="skill-container skill-2">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 1 -->
-
-                                    <!-- Skill 2 -->
-                                    <div class="skill clearfix">
-                                        <h4>Work in Team</h4>
-                                        <div class="skill-value">90%</div>
-                                    </div>
-                                    <div class="skill-container skill-2">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 2 -->
-
-                                    <!-- Skill 3 -->
-                                    <div class="skill clearfix">
-                                        <h4>Software/DB Design</h4>
-                                        <div class="skill-value">75%</div>
-                                    </div>
-                                    <div class="skill-container skill-5">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 3 -->
-
-                                    <!-- Skill 4 -->
-                                    <div class="skill clearfix">
-                                        <h4>Problem Solving</h4>
-                                        <div class="skill-value">80%</div>
-                                    </div>
-                                    <div class="skill-container skill-4">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 4 -->
-
-                                </div>
-                                <!-- End of Design Skills -->
-
-                                <div class="white-space-10"></div>
-
-                                <!-- Coding Skills -->
-                                <div class="block-title">
-                                    <h3>Coding <span>Skills</span></h3>
-                                </div>
-
-                                <div class="skills-info skills-second-style">
-                                    <!-- Skill 5 -->
-                                    <div class="skill clearfix">
-                                        <h4>Scala</h4>
-                                        <div class="skill-value">85%</div>
-                                    </div>
-                                    <div class="skill-container skill-3">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 5 -->
-
-                                    <!-- Skill 6 -->
-                                    <div class="skill clearfix">
-                                        <h4>Java</h4>
-                                        <div class="skill-value">70%</div>
-                                    </div>
-                                    <div class="skill-container skill-6">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 6 -->
-
-                                    <!-- Skill 7 -->
-                                    <div class="skill clearfix">
-                                        <h4>Python</h4>
-                                        <div class="skill-value">70%</div>
-                                    </div>
-                                    <div class="skill-container skill-6">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 7 -->
-
-                                    <!-- Skill 8 -->
-                                    <div class="skill clearfix">
-                                        <h4>Other Language</h4>
-                                        <div class="skill-value">50%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage"></div>
-                                    </div>
-                                    <!-- End of Skill 8 -->
-                                </div>
-                                <!-- End of Coding Skills -->
-
-                                <div class="white-space-10"></div>
-
-                                <!-- Knowledges -->
-                                <div class="block-title">
-                                    <h3>Knowledges</h3>
-                                </div>
-
-                                <ul class="knowledges">
-                                    <li>Big Data</li>
-                                    <li>Google Cloud Platform</li>
-                                    <li>Cloudera</li>
-                                    <li>Apache Spark</li>
-                                    <li>Apache Hive</li>
-                                    <li>Apache Airflow</li>
-                                    <li>Impala</li>
-                                    <li>Relational Databases</li>
-                                    <li>Scala</li>
-                                    <li>Java</li>
-                                    <li>Python</li>
-                                    <li>Git</li>
-                                    <li>Scrum methodology</li>
-                                    <li>Confluence</li>
-                                </ul>
-                                <!-- End of Knowledges -->
-                            </div>
-                            <!-- End of Skills & Certificates -->
-                        </div>
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Certificates -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>Certificates</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <!-- Certificate 1 -->
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img alt="coursera" src="img/coursera.png">
-                                    </div>
-
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>Preparing for Google Cloud Certification: Cloud Data Engineer
-                                                Specialization</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Membership ID: 57H9JBQYSXS7</span>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Certification Link:
-                                                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/57H9JBQYSXS7">here</a>.
-                                                </span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>January 2021</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            Released by <span>Coursera | Google</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Certificate 1 -->
-                            <!-- Certificate 2 -->
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img alt="coursera" height="auto" src="img/coursera.png" width="auto">
-                                    </div>
-
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>Google IT Automation with Python Specialization</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Membership ID: MJEDKUL6CEKU</span>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Certification Link:
-                                                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/MJEDKUL6CEKU">here</a>.
-                                                </span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>August 2021</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            Released by <span>Coursera | Google</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Certificate 2 -->
-
-                            <!-- Certificate 3 -->
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img alt="astronomer" height="auto" src="img/astronomer.png" width="auto">
-                                    </div>
-
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>Astronomer Certification for Apache Airflow Fundamentals</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Certification Link:
-                                                <a href="https://www.credly.com/badges/f424a105-4f82-4de6-91bf-70a299052e09?source=linked_in_profile">here</a>.
-                                                </span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>March 2022</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            Released by <span>Astronomer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Certificate 3 -->
-
-                            <!-- Certificate 4 -->
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="certificate-item clearfix">
-                                    <div class="certi-logo">
-                                        <img alt="CodinGame" height="auto" src="img/codingame.svg" width="auto">
-                                    </div>
-
-                                    <div class="certi-content">
-                                        <div class="certi-title">
-                                            <h4>CodinGame Certification - Scala</h4>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Credential ID: hYhJlsqjrXciPZA89IL48g</span>
-                                        </div>
-                                        <div class="certi-id">
-                                            <span>Certification Link:
-                                                <a href="https://www.codingame.com/certification/hYhJlsqjrXciPZA89IL48g">here</a>.
-                                                </span>
-                                        </div>
-                                        <div class="certi-date">
-                                            <span>March 2022</span>
-                                        </div>
-                                        <div class="certi-company">
-                                            Released by <span>CodinGame</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Certificate 4 -->
-                        </div>
-                        <!-- End of Certificates -->
-                    </div>
-                </section>
-                <!-- End of Resume Subpage -->
-
-                <!-- Contact Subpage -->
-                <section class="animated-section" data-id="contact">
-                    <div class="section-content">
-                        <div class="page-title">
-                            <h2>Contact</h2>
-                        </div>
-
-                        <div class="row">
-                            <!-- Contact Info -->
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="lm-info-block gray-default">
-                                    <i class="lnr lnr-map-marker"></i>
-                                    <h4>Corigliano-Rossano, 87064</h4>
-                                    <h5>Calabria, Italia</h5>
-                                    <span class="lm-info-block-value"></span>
-                                    <span class="lm-info-block-text"></span>
-                                </div>
-
-                                <div class="lm-info-block gray-default">
-                                    <i class="lnr lnr-envelope"></i>
-                                    <h4>gb1609@outlook.com</h4>
-                                    <span class="lm-info-block-value"></span>
-                                    <span class="lm-info-block-text"></span>
-                                </div>
-
-                                <div class="lm-info-block gray-default">
-                                    <i class="lnr lnr-envelope"></i>
-                                    <h4>giovanni.brunetti@pecaruba.it</h4>
-                                    <span class="lm-info-block-value"></span>
-                                    <span class="lm-info-block-text"></span>
-                                </div>
-
-                                <div class="lm-info-block gray-default">
-                                    <i class="fab fa-instagram"></i>
-                                    <h4>g1b1609</h4>
-                                    <span class="lm-info-block-value"></span>
-                                    <span class="lm-info-block-text"></span>
-                                </div>
-
-                            </div>
-                            <!-- End of Contact Info -->
-
-                            <!-- Contact Form -->
-                            <div class="col-xs-12 col-sm-8">
-                                <div class="map-responsive">
-                                    <iframe allowfullscreen=""
-                                            height="600" loading="lazy"
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49198.0546503966!2d16.544594061521593!3d39.58489049330963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13409d0c8674ec01%3A0xd9069061f11750bf!2sComune%20di%20Corigliano-Rossano!5e0!3m2!1sen!2sit!4v1645717651658!5m2!1sen!2sit"
-                                            style="border:0;"
-                                            width="800"></iframe>
-                                </div>
-                                <br>
-                                <br>
-                                <div class="block-title">
-                                    <h3>If you need <span>do not hesitate</span> to contact me!</h3>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- End of Contact Form -->
-                    </div>
-                </section>
-                <!-- End of Contact Subpage -->
-            </div>
-        </div>
-
     </div>
 </div>
+<!-- End Popup Mobile Menu  -->
 
-<script src="js/jquery.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/animating.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src='js/perfect-scrollbar.min.js'></script>
-<script src='js/jquery.shuffle.min.js'></script>
-<script src='js/masonry.pkgd.min.js'></script>
-<script src='js/owl.carousel.min.js'></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/validator.js"></script>
-<script src="js/main.js"></script>
+
+<main class="main-page-wrapper">
+
+    <!-- Start Slider Area -->
+    <div class="rn-slider-area" id="home">
+        <div class="slide slider-style-1">
+            <div class="container">
+                <div class="row row--30 align-items-center">
+                    <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+                        <div class="content">
+                            <div class="inner">
+                                <span class="subtitle">Who am I?</span>
+                                <h1 class="title">Hi, I’m<br> <span>Giovanni Brunetti</span><br>
+                                    <span class="header-caption" id="page-top">
+                                            <!-- type headline start-->
+                                            <span class="cd-headline clip is-full-width">
+                                                <span>a </span>
+                                                <!-- ROTATING TEXT -->
+                                        <span class="cd-words-wrapper">
+                                                    <b class="is-visible">Big Data Engineer.</b>
+                                                    <b class="is-hidden">Software Engineer.</b>
+                                                    <b class="is-hidden">Problem Solver.</b>
+                                                </span>
+                                        </span>
+                                        <!-- type headline end -->
+                                        </span>
+                                </h1>
+
+                                <div>
+                                    <p class="description">
+                                        I'm Giovanni Brunetti, a computer scientist.
+                                        I'm an Italian based computer scientist focused in <b>Big Data</b> in my work.
+                                        <br>
+                                        I love to write code and solve problems with it!
+                                        <br>
+                                        In my free time I love to read or play video games. However, the thing I love
+                                        most is being surrounded by nature!
+                                    </p>
+                                </div>
+                                <div class="row" style="margin: 1em">
+                                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 button-wrapper d-flex">
+                                        <a class="rn-btn mr--30" href="cv/cv_giovannibrunetti.pdf"
+                                           target="_blank"><span>DOWNLOAD CV</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                                    <div class="social-share-inner-left">
+                                        <span class="title">find with me</span>
+                                        <ul class="social-share d-flex liststyle">
+                                            <li class="instagram"><a href="https://www.instagram.com/g1b1609/"
+                                                                     target="_blank"><i
+                                                    data-feather="instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin"><a
+                                                    href="https://www.linkedin.com/in/giovanni-brunetti-aa062b132/"
+                                                    target="_blank"><i
+                                                    data-feather="linkedin"></i></a>
+                                            </li>
+                                            <li class="github"><a href="https://github.com/GB1609" target="_blank"><i
+                                                    data-feather="github"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="order-1 order-lg-2 col-lg-5">
+                        <div class="thumbnail">
+                            <div class="inner">
+                                <img alt="Personal Portfolio Images" src="assets/images/vertical_main.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Area -->
+
+    <!-- Start Service Area -->
+    <div class="rn-service-area rn-section-gap section-separator" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-left" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500"
+                         data-aos-once="true">
+                        <h2 class="title">What I Do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row--25 mt_md--10 mt_sm--10">
+
+                <!-- Start Single Service -->
+                <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30" data-aos="fade-up"
+                     data-aos-delay="100" data-aos-duration="500"
+                     data-aos-once="true">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="code"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">Developer</h4>
+                                <p class="description text-justify">I have worked with different languages and in
+                                    different contexts.
+                                    Whatever the code to write, I don't hold back.<br>
+                                    You can find my projects and my personal works on my GitHub page.
+                            </div>
+                        </div>
+                        <a class="over-link"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30" data-aos="fade-up"
+                     data-aos-delay="300" data-aos-duration="500"
+                     data-aos-once="true">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="database"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">Big Data</h4>
+                                <p class="description text-justify"> Experience in Big Data contexts of different kinds,
+                                    cloud and
+                                    Cloudera.<br>
+                                    Participation in all typical data phases: ingestion, modeling, ETL and
+                                    analysis.</p>
+                            </div>
+                        </div>
+                        <a class="over-link"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30" data-aos="fade-up"
+                     data-aos-delay="500" data-aos-duration="500"
+                     data-aos-once="true">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="users"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">Team Work</h4>
+                                <p class="description text-justify">Ability to work in a team, knowledge of cooperation
+                                    systems such
+                                    as GIT, Jira, Confluence and Scrum methodology.</p>
+                            </div>
+                        </div>
+                        <a class="over-link"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+                <!-- Start Single Service -->
+                <div class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30" data-aos="fade-up"
+                     data-aos-delay="500" data-aos-duration="500"
+                     data-aos-once="true">
+                    <div class="rn-service">
+                        <div class="inner">
+                            <div class="icon">
+                                <i data-feather="list"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">Design</h4>
+                                <p class="description text-justify"> Ability to create software and organize the
+                                    necessary structure. Organize the work and divide it. </p>
+                            </div>
+                        </div>
+                        <a class="over-link"></a>
+                    </div>
+                </div>
+                <!-- End SIngle Service -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End Service Area  -->
+
+    <!-- Start Resume Area -->
+    <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span class="subtitle">Work and Educational Experience</span>
+                        <h2 class="title">Resume</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--45">
+                <div class="col-lg-12">
+                    <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                        <li class="nav-item">
+                            <a aria-controls="experience" aria-selected="true" class="nav-link active" data-toggle="tab"
+                               href="#experience"
+                               id="experience-tab" role="tab">Job Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="education" aria-selected="false" class="nav-link" data-toggle="tab"
+                               href="#education"
+                               id="education-tab" role="tab">education and certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="professional" aria-selected="false" class="nav-link" data-toggle="tab"
+                               href="#professional"
+                               id="professional-tab" role="tab">Professional
+                                Skills</a>
+                        </li>
+                    </ul>
+                    <!-- Start Tab Content Wrapper  -->
+                    <div class="rn-nav-content tab-content" id="myTabContents">
+                        <!-- Start Single Tab  -->
+                        <div aria-labelledby="education-tab" class="tab-pane fade" id="education"
+                             role="tabpanel">
+                            <div class="personal-experience-inner mt--40">
+                                <div class="row">
+                                    <!-- Start Skill List Area  -->
+                                    <div class="col-lg-6 col-md-12 col-12">
+                                        <div class="content">
+                                            <h4 class="maintitle">Education</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Master Degree in Computer Science</h4>
+                                                                <span>University of Calabria</span>
+                                                                <a
+                                                                        href="https://informatica.unical.it/"
+                                                                        target="_blank"><img
+                                                                        alt="unical logo"
+                                                                        height="auto"
+                                                                        src="assets/images/unical.jpg" width="60%"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2021</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Key concepts regarding theorical Computer
+                                                            Science, software engineering, machine learning, artificial
+                                                            intelligence, big
+                                                            data, data analytics, data warehouse etc.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4> Bachelor Degree in Computer Science</h4>
+                                                                <span>University of Calabria</span>
+                                                                <a
+                                                                        href="https://informatica.unical.it/"
+                                                                        target="_blank"><img
+                                                                        alt="unical logo"
+                                                                        height="auto"
+                                                                        src="assets/images/unical.jpg" width="60%"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2017</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Bases on programming, basic and
+                                                            object-oriented and on the fundamental concepts of analysis,
+                                                            statistics, physics. Fundamentals of database and software
+                                                            engineering.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+
+                                    <!-- Start Skill List Area 2nd  -->
+                                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                        <div class="content">
+                                            <h4 class="maintitle">Certifications</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Pet B1</h4>
+                                                                <span>University of Cambridge</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2012</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Cambridge ESOL Entry Level Certificate in
+                                                            ESOL International: <a
+                                                                    href="https://www.icloud.com/iclouddrive/0NFIiSrsMi3tyW8ZlZu8LOw-A#pet"
+                                                                    target="_blank">link</a>.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Preparing for Google Cloud Certification: Cloud Data
+                                                                    Engineer Specialization</h4>
+                                                                <span>Coursera | Google</span>
+                                                                <a
+                                                                        href="https://www.coursera.org/"
+                                                                        target="_blank"><img
+                                                                        alt="cloudera logo"
+                                                                        height="60px"
+                                                                        src="assets/images/coursera.png" width="60px"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2021/01</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">
+                                                            Membership ID: 57H9JBQYSXS7<br>
+                                                            Certification Link: <span><a
+                                                                href="https://www.coursera.org/account/accomplishments/specialization/certificate/57H9JBQYSXS7"
+                                                                target="_blank">here</a></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Google IT Automation with Python Specialization</h4>
+                                                                <span>Coursera | Google</span>
+                                                                <a
+                                                                        href="https://www.coursera.org/"
+                                                                        target="_blank"><img
+                                                                        alt="cloudera logo"
+                                                                        height="60px"
+                                                                        src="assets/images/coursera.png" width="60px"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2021/08</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">
+                                                            Membership ID: MJEDKUL6CEKU<br>
+                                                            Certification Link: <span><a
+                                                                href="https://www.coursera.org/account/accomplishments/specialization/certificate/MJEDKUL6CEKU"
+                                                                target="_blank">here</a></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Astronomer Certification for Apache Airflow
+                                                                    Fundamentals</h4>
+                                                                <span>Astronomer</span> <a
+                                                                    href="https://academy.astronomer.io/"
+                                                                    target="_blank"><img
+                                                                    alt="astronomer logo"
+                                                                    height="60px"
+                                                                    src="assets/images/astronomer.png"
+                                                                    width="60px"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2022/03</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">
+                                                            Certification Link: <span><a
+                                                                href="https://www.credly.com/badges/f424a105-4f82-4de6-91bf-70a299052e09?source=linked_in_profile"
+                                                                target="_blank">here</a></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>CodinGame Certification - Scala</h4>
+                                                                <span>CodinGame</span> <a
+                                                                    href="https://www.codingame.com/home"
+                                                                    target="_blank"><img
+                                                                    alt="codinGame logo"
+                                                                    height="60px"
+                                                                    src="assets/images/codingame.svg" width="60px"/></a>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2022/03</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">
+                                                            Membership ID: hYhJlsqjrXciPZA89IL48g<br>
+                                                            Certification Link: <span><a
+                                                                href="https://www.codingame.com/certification/hYhJlsqjrXciPZA89IL48g"
+                                                                target="_blank">here</a></span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+
+                        <!-- Start Single Tab  -->
+                        <div aria-labelledby="professional-tab" class="tab-pane fade " id="professional"
+                             role="tabpanel">
+                            <div class="personal-experience-inner mt--40">
+                                <div class="row row--40">
+
+                                    <!-- Start Single Progressbar  -->
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="progress-wrapper">
+                                            <div class="content">
+                                                <h4 class="maintitle">General Skills</h4>
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">WORK IN AUTONOMY</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="90"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".2s"
+                                                             data-wow-duration="0.5s"
+                                                             role="progressbar" style="width: 90%"><span
+                                                                class="percent-label">90%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">WORK IN TEAM</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="85"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".3s"
+                                                             data-wow-duration="0.6s"
+                                                             role="progressbar" style="width: 90%"><span
+                                                                class="percent-label">90%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">SOFTWARE/DB DESIGN</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="85"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".4s"
+                                                             data-wow-duration="0.7s"
+                                                             role="progressbar" style="width: 80%"><span
+                                                                class="percent-label">80%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">PROBLEM SOLVING</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="85"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".6s"
+                                                             data-wow-duration="0.8s"
+                                                             role="progressbar" style="width: 85%"><span
+                                                                class="percent-label">85%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progressbar  -->
+
+                                    <!-- Start Single Progressbar  -->
+                                    <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                        <div class="progress-wrapper">
+                                            <div class="content">
+                                                <h4 class="maintitle">Development Skill</h4>
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">SCALA</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="85"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".3s"
+                                                             data-wow-duration="0.5s"
+                                                             role="progressbar" style="width: 85%"><span
+                                                                class="percent-label">85%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">JAVA</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="75"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".4s"
+                                                             data-wow-duration="0.6s"
+                                                             role="progressbar" style="width: 75%"><span
+                                                                class="percent-label">75%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">PYTHON</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="75"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".5s"
+                                                             data-wow-duration="0.7s"
+                                                             role="progressbar" style="width: 75%"><span
+                                                                class="percent-label">75%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">SQL AND SIMILAR LANGUAGES</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="70"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".6s"
+                                                             data-wow-duration="0.8s"
+                                                             role="progressbar" style="width: 70%"><span
+                                                                class="percent-label">70%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">OTHER LANGUAGE</h6>
+                                                    <div class="progress">
+                                                        <div aria-valuemax="100"
+                                                             aria-valuemin="0" aria-valuenow="65"
+                                                             class="progress-bar wow fadeInLeft" data-wow-delay=".7s"
+                                                             data-wow-duration="0.9s"
+                                                             role="progressbar" style="width: 65%"><span
+                                                                class="percent-label">65%</span></div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progressbar  -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+
+                        <!-- Start Single Tab  -->
+                        <div aria-labelledby="experience-tab" class="tab-pane show active fade single-tab-area"
+                             id="experience"
+                             role="tabpanel">
+                            <div class="personal-experience-inner mt--40">
+                                <div class="row">
+                                    <!-- Start Skill List Area  -->
+                                    <div class="col-lg-6 col-md-12 col-12">
+                                        <div class="content">
+                                            <h4 class="maintitle">Job Experience</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Big Data Engineer</h4>
+                                                                <span>Vt Solutions & Consulting</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2020/01-Current</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Working on various internal and external
+                                                            (as a consultant) projects in Big Data field.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Big Data Engineer Consultant</h4>
+                                                                <span>Enel S.p.A. on behalf of <br>ATOS S.p.A. and <br>VT Solutions & Consulting</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2020/01-2020/10</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Big Data Engineer on Enel Next Project
+                                                            using Scala and Java programming languages, Hadoop Cloudera
+                                                            Distribution.
+                                                            Main topics:
+                                                        <ul style="margin-left: 1em">
+                                                            <li>Development of Apache Spark batch jobs using Scala for
+                                                                Ingestion and
+                                                                processing of Avro file landed in HDFS.
+                                                            </li>
+                                                            <li> Desing and development of Data Quality Spark Processing
+                                                                Jobs for
+                                                                reports based on Hive and Impala.
+                                                            </li>
+                                                            <li>Data preparation, Data modelling and data partitioning.
+                                                            </li>
+                                                            <li>Lambda architecture, data modeling, data preparation,
+                                                                partitioning.
+                                                            </li>
+                                                            <li>Highly focused on the transformation and analysis phase
+                                                                of the data
+                                                                for the reporting phase.
+                                                            </li>
+                                                        </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+
+                                    <!-- Start Skill List Area 2nd  -->
+                                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                        <div class="content">
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Big Data Engineer Consultant</h4>
+                                                                <span>Sky Deutschland GmbH on behalf of<br> NTT Data Italia and <br>VT Solutions & Consulting</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2021/02-Current</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">SKY DE on behalf of NTT Data Italia in
+                                                            NEW-CRM project.
+                                                            Main Topics:
+                                                        <ul style="margin-left: 1em">
+                                                            <li>Data modelling and data partitioning in a Google Cloud
+                                                                Platform
+                                                                ecosystem using Big Query.
+                                                            </li>
+                                                            <li>Development of Dataflow job using Scala for Ingestion
+                                                                and processing
+                                                                realtime data (Avro) ingested by kafka.
+                                                            </li>
+                                                            <li>Development of Google Airflow DAGs using Python to
+                                                                perform etl
+                                                                operations on data for DWH.
+                                                            </li>
+                                                        </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Big Data Analyst Consultant</h4>
+                                                                <span>Telecom Italia S.p.A. on behalf of Bip and <br> VT Solutions & Consulting</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2020/10-2021/02</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">Big Data Analyst on TIM Genomics Project.
+                                                            The main task was to write some guideline documents about
+                                                            the main approches and best practices in a Big Data platform
+                                                            and its reference environment. The two documents were mostly
+                                                            on Big Data development and architecture with particular
+                                                            attention for the following points:
+                                                        <ul style="margin-left: 1em">
+                                                            <li>Software component structure and code documentation.
+                                                            </li>
+                                                            <li>Git integration Strategy (with particular focus on
+                                                                branching models
+                                                                like Git-Flow
+                                                                and GitHub-Flow, code and environment promotion).
+                                                            </li>
+                                                            <li>Data Lake principles (data ingestion, data preparation,
+                                                                data
+                                                                exporting, testing).
+                                                            </li>
+                                                            <li>Lambda architecture, data modeling, data preparation,
+                                                                partitioning.
+                                                            </li>
+                                                            <li>Analysis for migration of Cloudera Ecosystem to Google
+                                                                Cloud
+                                                                Platform.
+                                                            </li>
+                                                        </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Resume Area -->
+    <!-- Start Contact section -->
+    <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span class="subtitle">Contact</span>
+                        <h2 class="title">Contact With Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+                <div class="col-lg-5">
+                    <div class="contact-about-area">
+                        <div class="thumbnail">
+                            <img alt="contact-img" src="assets/images/main_photo.jpg">
+                        </div>
+                        <div class="title-area">
+                            <h4 class="title">Giovanni Brunetti</h4>
+                            <span>Big Data and Software Engineer</span>
+                        </div>
+                        <div class="description">
+                            <p>If you need do not hesitate to contact me!
+                            </p>
+                            <span class="mail">Email: <a href="mailto:gb1609@outlook.com">gb1609@outlook.com</a></span>
+                            <span class="mail">Pec: <a href="mailto:giovanni.brunetti@pecaruba.it">giovanni.brunetti@pecaruba.it</a></span>
+                        </div>
+                        <div class="social-area">
+                            <div class="name">FIND WITH ME</div>
+                            <div class="social-icone">
+                                <a href="https://www.instagram.com/g1b1609/" target="_blank"><i
+                                        data-feather="instagram"></i></a>
+                                <a
+                                        href="https://www.linkedin.com/in/giovanni-brunetti-aa062b132/" target="_blank"><i
+                                        data-feather="linkedin"></i></a>
+                                <a href="https://github.com/GB1609" target="_blank"> <i
+                                        data-feather="github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 contact-input" data-aos-delay="600">
+                    <div class="contact-form-wrapper">
+                        <div class="introduce">
+                            <form action="mail.php" class="rnt-contact-form rwt-dynamic-form row" id="contact-form"
+                                  method="POST">
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="contact-name">Your Name</label>
+                                        <input class="form-control form-control-lg" id="contact-name"
+                                               name="contact-name" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="contact-phone">Phone Number</label>
+                                        <input class="form-control" id="contact-phone" name="contact-phone" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="contact-email">Email</label>
+                                        <input class="form-control form-control-sm" id="contact-email"
+                                               name="contact-email" type="email">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="subject">subject</label>
+                                        <input class="form-control form-control-sm" id="subject" name="subject"
+                                               type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="contact-message">Your Message</label>
+                                        <textarea cols="30" id="contact-message" name="contact-message"
+                                                  rows="10"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <button class="rn-btn" id="submit" name="submit" type="submit">
+                                        <span>SEND MESSAGE</span>
+                                        <i data-feather="arrow-right"></i>
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact section -->
+
+    <!-- Back to  top Start -->
+    <div class="backto-top">
+        <div>
+            <i data-feather="arrow-up"></i>
+        </div>
+    </div>
+    <!-- Back to top end -->
+
+
+</main>
+
+<!-- Start Footer Area -->
+<div class="rn-footer-area rn-section-gap section-separator">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-area text-center">
+
+                    <div class="logo">
+                        <a href="index.html">
+                            <img alt="logo" src="assets/images/logos/logo-rounded.png">
+                        </a>
+                    </div>
+
+                    <p class="description mt--30">
+                        © Giovanni Brunetti
+                        <script>document.write(new Date().getFullYear().toString())</script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Footer Area -->
+
+<!-- JS ============================================ -->
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/vendor/modernizer.min.js"></script>
+<script src="assets/js/vendor/feather.min.js"></script>
+<script src="assets/js/vendor/slick.min.js"></script>
+<script src="assets/js/vendor/bootstrap.js"></script>
+<script src="assets/js/vendor/text-type.js"></script>
+<script src="assets/js/vendor/wow.js"></script>
+<script src="assets/js/vendor/aos.js"></script>
+<script src="assets/js/vendor/particles.js"></script>
+<!-- main JS -->
+<script src="assets/js/main.js"></script>
 </body>
+
 </html>
