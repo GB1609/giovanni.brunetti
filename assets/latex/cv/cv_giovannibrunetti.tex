@@ -1,0 +1,225 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+    \begin{minipage}[t]{0.5\textwidth}
+        \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+        { \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Giovanni Brunetti}}}} % First name
+        \\\\\vspace{5pt}
+        {\Large Big Data and Software Engineer} % Career or current job title
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+        \vspace{-\baselineskip} % Required for vertically aligning minipages
+        % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+        \icon{Globe}{10}{\href{https://giovannibrunetti.it/}{giovannibrunetti.it}}\\
+        \icon{Phone}{10}{+39 3282498121}\\
+        \icon{MapMarker}{9}{Cosenza, Italy}\\
+
+    \end{minipage}
+    \begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+        \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+        \icon{Envelope}{10}{\href{mailto:gb1609@outlook.com}{gb1609@outlook.com}}\\
+        \icon{Github}{10}{\href{https://github.com/GB1609}{github.com/GB1609}}\\
+        \icon{LinkedinSquare}{10}{\href{https://www.linkedin.com/in/giovanni-brunetti-aa062b132/}{linkedin}}\\
+
+    \end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+    \begin{minipage}[t]{0.46\textwidth}
+        \cvsect{Summary}
+        [10pt] I'm a computer scientist based in Italy focused on working in the Big Data context. I love writing code and solving problems with it! \\ I have been a Big Data Engineer since 2020 across multiple domains: \textbf{energy}, \textbf{telecommunications} and \textbf{insurance}.\\
+    \end{minipage}
+    \hfill % Whitespace between
+    \begin{minipage}[t]{0.465\textwidth}
+        \cvsect{Skills}
+        \vspace{-6pt}
+
+        \begin{minipage}[t]{0.2\textwidth}
+            \textbf{Technicals:}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.73\textwidth}
+            \small
+            GCP (BigQuery, Composer, DataFlow, BigTable, ecc), Cloudera Ecosystem, Scala, SQL, Python, Scala, Bash, Docker, Kubernetes, Spark, Hadoop, Hive, Jenkins, Airflow, Kafka, SonarQube, Git, Maven, Sbt, Functional Programming, HDFS, Team Tools and methodologies (Jira, Confluence, Scrum)
+        \end{minipage}
+        \vspace{4mm}
+
+        \begin{minipage}[t]{0.2\textwidth}
+            \textbf{Soft Skills:}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.73\textwidth}
+            \small
+            Problem Solving, Proactive, Team Working, Passion, Time Management, Challenge Seeker
+        \end{minipage}
+
+    \end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+    \vspace{-10 pt}
+    \cvsect{Experience}
+    \begin{entrylist}
+        \entry
+        {10/2022 -- NOW}
+        {Big Data and Software Engineer}
+        {Agile Lab}
+        {\vspace{-10pt}
+            \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+                \item {Consultant for a major Italian \textbf{insurance} company:}
+                \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+                    \item {Data modelling and data partitioning in a Cloudera Platform ecosystem.}
+                    \item {Defining and developing Spark job using Scala for Ingestion and processing real-time and batch data.}
+                    \item {Development of NiFi pipeline to orchestrate jobs.}
+                    \texttt{\\MAIN TECHNOLOGIES:} \textbf{SCALA, SPARK, HIVE, IMPALA, SQL, POSTGRESSQL, HBASE, HDFS, BASH, SSH, JENKINS, KAFKA}
+                \end{itemize}
+            \end{itemize} }
+        \entry
+        {01/2020 -- 10/2023}
+        {Big Data and Software Engineer}
+        {VT Solutions & Consulting}
+        {\vspace{-10pt}
+            \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+                \item {Consultant for a major German \textbf{telecommunications} company:}
+                \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+                    \item {Data modeling and data partitioning in a Google Cloud Platform ecosystem.}
+                    \item {Defining and developing DataFlow job using Scala for Ingestion and processing real-time and batch data.}
+                    \item {Development of Airflow DAGs using Python to orchestrate ETL operations on data for a DWH.}
+                    {\texttt{\\MAIN TECHNOLOGIES:} \textbf{SCALA, PYTHON, BIG QUERY, COMPOSER, SQL, POSTGRESSQL, BIG TABLE, GCS, BASH, JENKINS, KAFKA, PUB SUB, AIRFLOW, SONARQUBE}}
+                    \vspace{1mm}
+                \end{itemize}
+                \item {Consultant for a major Italian \textbf{telecommunications} company. The main task was to write some guideline documents about the main approaches and best practices in a Big Data platform and its reference environment}
+                \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+                    \item {Software component structure and code documentation.}
+                    \item {Git integration Strategy (with particular focus on branching models like Git-Flow and GitHub-Flow, code and
+                    environment promotion).}
+                    \item {Data Lake principles (data ingestion, data preparation, data exporting, testing).}
+                    \item {Lambda architecture, data modeling, data preparation, partitioning.}
+                    \item {Analysis for migration of Cloudera Ecosystem to Google Cloud Platform.} \vspace{1mm}
+                \end{itemize}
+                \item {Consultant for a major Italian \textbf{energy} company.}
+                \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+                    \item {Development of Apache Spark batch jobs using Scala for ingestion and processing of Avro file landed in HDFS.}
+                    \item {Design and development of Data Quality Spark Processing Jobs for reports based on Hive and Impala.}
+                    \item {Data Lake principles (data ingestion, data preparation, data exporting, testing).}
+                    \item {Data preparation, data modelling and data partitioning.}
+                    {\texttt{\\MAIN TECHNOLOGIES:} \textbf{SCALA, JAVA, PYTHON, SQL, POSTGRESSQL, BASH, JENKINS, SONARQUBE}}\vspace{1mm}
+                \end{itemize}
+            \end{itemize}}
+    \end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+    \vspace{-10 pt}
+    \cvsect{Certifications}
+    \begin{entrylist}
+        \entry
+        {7/2022 - 7/2024}
+        {GCP Professional Data Engineer }
+        {Google Cloud}
+        {\href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.credential.net/470d1fe8-1a20-41af-961f-096835a17255}{certified link}}
+        \entry
+        {02/2022}
+        {Astronomer Certification for Apache Airflow Fundamentals and DAG Authoring}
+        {Astronomer}
+        {\href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.credly.com/badges/f424a105-4f82-4de6-91bf-70a299052e09/public_url}{certified link Fundamentals}\\
+        \href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.credly.com/badges/1f1da504-b57b-48d7-8072-fef4f4986b63/public_url}{certified link DAG Authoring}}
+        \entry
+        {10/2023}
+        {PET B1}
+        {University of Cambridge}
+        {{\href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.icloud.com/iclouddrive/0NFIiSrsMi3tyW8ZlZu8LOw-A#pet}{certified link}}}
+        \entry
+        {10/2019}
+        {Best Student Machine Learning}
+        {Università della Calabria - Department of Mathematics and Computer Science}
+        {{\href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.icloud.com/iclouddrive/04QwjtTu42vB1e1-0HA5CC-mg#bs_machine_learning}{certified link}}}
+        \entry
+        {09/2012 - 10/2012}
+        {Attendance course at ETC International College}
+        {ETC International College, Bournemouth, England}
+        {{\href{https://europa.eu/europass/eportfolio/screen/redirect-external?url=https://www.icloud.com/iclouddrive/0z_FGaHDIwb5aYkfD03TKBF1Q#ETC_certified link}{certified link}}}
+    \end{entrylist}
+    \vspace{-10 pt}
+    \cvsect{Education}
+    \begin{entrylist}
+        \entry
+        {2021}
+        {Master Degree in Computer Science}
+        {University of Calabria}
+        {Università della Calabria - Department of Mathematics and Computer Science}
+        \entry
+        {2017}
+        {Bachelor Degree in Computer Science}
+        {University of Calabria}
+        {Università della Calabria - Department of Mathematics and Computer Science}
+    \end{entrylist}
+
+    \begin{minipage}[t]{0.45\textwidth}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+        \vspace{-10 pt}
+        \cvsect{Languages}
+        \vspace{-6pt}
+
+        \hspace{20mm} \textbf{English} - B1+, \textbf{ Italian} - native
+    \end{minipage}
+%----------------------------------------------------------------------------------------
+%	OTHER
+%----------------------------------------------------------------------------------------
+    \hfill % Whitespace between
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{-10 pt}
+        \cvsect{DRIVING LICENCE}
+        \vspace{-6pt}
+
+
+        \hspace{20mm} \textbf{Driving Licence: A1, B}
+
+%----------------------------------------------------------------------------------------
+    \end{minipage}
+\end{document}
